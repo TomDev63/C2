@@ -7,22 +7,9 @@ public class RecursionCountDown
 
 		public static void main(String[] args)
 			{
-				countDown(10);
+				Counter myCounter2 = new Counter();
+				myCounter2.countDown(10);
 			}
-
-		public static void countDown(int n) 
-			{
-				if (n==0) 
-					{
-						System.out.println("and lastly!: " + n);
-					}
-				else
-					{
-						System.out.println("This cycle : " +n);
-						n--;
-						countDown(n);
-					}
-			}
-		
-		// Need a  base case
 	}
+				
+
